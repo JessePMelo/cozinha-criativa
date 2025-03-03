@@ -9,3 +9,51 @@
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
+h1,h2,h3{
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoMenu{
+    margin-right: 20rem;
+}
+
+.conteudoPrincipal {
+    width: 50%;
+    margin: auto;
+    gap: 1rem;
+}
+
+.receitas {
+    margin-top: 2rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.formulario {
+    margin: auto;
+    gap: 0.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 50%;
+    align-items: stretch; /* Faz os inputs e botões ocuparem a largura do form */
+}
+
+#btnEnviar {
+    width: fit-content; /* Faz o botão ocupar apenas o necessário */
+    margin-left: auto; /* Move o botão para a direita */
+}
+
+footer{
+    text-align: center;
+}
